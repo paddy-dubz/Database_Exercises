@@ -3,12 +3,14 @@ USE employees;
 SELECT *
 from employees
 WHERE first_name = 'Irena'
+AND gender = 'M'
 OR first_name = 'Vidya'
 OR first_name ='Maya';
 
 SELECT *
 from employees
-WHERE last_name LIKE 'E%';
+WHERE last_name LIKE 'E%'
+OR last_name LIKE '%e';
 
 SELECT *
 FROM employees
