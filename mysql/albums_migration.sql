@@ -12,3 +12,4 @@ CREATE TABLE albums(
 # USE codeup_test_db;
 SHOW TABLES;
 DESCRIBE albums;
+SELECT * FROM albums;
