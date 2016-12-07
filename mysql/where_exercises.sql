@@ -2,7 +2,9 @@ USE employees;
 
 SELECT *
 from employees
-WHERE first_name IN ('Irena', 'Vidya', 'Maya');
+WHERE first_name = 'Irena'
+OR first_name = 'Vidya'
+OR first_name ='Maya';
 
 SELECT *
 from employees
