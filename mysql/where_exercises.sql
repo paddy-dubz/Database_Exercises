@@ -1,11 +1,16 @@
+# noinspection SqlResolveForFile
 USE employees;
 
 SELECT *
 from employees
-WHERE first_name = 'Irena'
-AND gender = 'M'
+WHERE gender = 'M'
+OR first_name = 'Irena'
 OR first_name = 'Vidya'
 OR first_name ='Maya';
+
+SELECT *
+from employees
+WHERE last_name LIKE 'E%';
 
 SELECT *
 from employees
