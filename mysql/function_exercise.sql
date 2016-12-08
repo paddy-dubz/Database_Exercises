@@ -24,7 +24,7 @@ WHERE hire_date BETWEEN '1990-01-01' AND '1999-12-31'
       AND birth_date LIKE '%12-25%'
 ORDER BY birth_date ASC, hire_date DESC ;
 
-SELECT first_name, last_name, count(*) as count
+SELECT first_name, last_name, count(*) AS count
 FROM employees
 WHERE last_name LIKE '%q%'
       AND last_name NOT LIKE '%qu%'
