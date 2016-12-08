@@ -2,7 +2,7 @@ USE titles;
 USE employees;
 
 
-SELECT DISTINCT title
+SELECT title
 from titles
 GROUP BY title ASC ;
 
